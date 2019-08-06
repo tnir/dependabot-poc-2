@@ -1,3 +1,3 @@
 google-cloud-core==0.29.1
 google-cloud-dns==0.30.2
-octodns==0.9.5
+octodns==0.9.6
