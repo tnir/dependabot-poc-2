@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "07:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: google-cloud-core
+    versions:
+    - 1.5.0
+  - dependency-name: google-cloud-dns
+    versions:
+    - 0.32.1
